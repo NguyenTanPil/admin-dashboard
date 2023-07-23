@@ -11,7 +11,47 @@ const router = createBrowserRouter([
 		element: <App />,
 		children: [
 			{
-				path: '/dashboard',
+				index: true,
+				element: <Dashboard />,
+			},
+			{
+				path: '/team',
+				element: <Dashboard />,
+			},
+			{
+				path: '/contacts',
+				element: <Dashboard />,
+			},
+			{
+				path: '/invoices',
+				element: <Dashboard />,
+			},
+			{
+				path: '/form',
+				element: <Dashboard />,
+			},
+			{
+				path: '/bar',
+				element: <Dashboard />,
+			},
+			{
+				path: '/pie',
+				element: <Dashboard />,
+			},
+			{
+				path: '/line',
+				element: <Dashboard />,
+			},
+			{
+				path: '/faq',
+				element: <Dashboard />,
+			},
+			{
+				path: '/geography',
+				element: <Dashboard />,
+			},
+			{
+				path: '/calendar',
 				element: <Dashboard />,
 			},
 		],
