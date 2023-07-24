@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Dashboard from './scenes/dashboard/index.jsx';
 import Team from './scenes/team/index.jsx';
 import Contacts from './scenes/contacts/index.jsx';
+import Invoices from './scenes/invoices/index.jsx';
 
 const router = createBrowserRouter([
 	{
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/invoices',
-				element: <Dashboard />,
+				element: <Invoices />,
 			},
 			{
 				path: '/form',
