@@ -8,6 +8,7 @@ import Team from './scenes/team/index.jsx';
 import Contacts from './scenes/contacts/index.jsx';
 import Invoices from './scenes/invoices/index.jsx';
 import Form from './scenes/form/index.jsx';
+import Calendar from './scenes/calendar/index.jsx';
 
 const router = createBrowserRouter([
 	{
@@ -56,7 +57,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/calendar',
-				element: <Dashboard />,
+				element: <Calendar />,
 			},
 		],
 	},
