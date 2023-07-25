@@ -7,6 +7,7 @@ import Dashboard from './scenes/dashboard/index.jsx';
 import Team from './scenes/team/index.jsx';
 import Contacts from './scenes/contacts/index.jsx';
 import Invoices from './scenes/invoices/index.jsx';
+import Form from './scenes/form/index.jsx';
 
 const router = createBrowserRouter([
 	{
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/form',
-				element: <Dashboard />,
+				element: <Form />,
 			},
 			{
 				path: '/bar',
